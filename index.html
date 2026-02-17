@@ -9,15 +9,6 @@
     
     <link rel="stylesheet" href="style.css" type="text/css" />
 
-    <style type="text/css">
-        .highlight-text {
-            color: #d35400;
-            font-weight: bold;
-        }
-        .no-bullet {
-            list-style-type: none;
-        }
-    </style>
 </head>
 <body>
 
@@ -28,6 +19,7 @@
             <a href="#education">Education</a>
             <a href="#skills">Technical Skills</a>
             <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
             <button id="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
         </div>
     </div>
@@ -158,6 +150,34 @@
                 
                 <li>Volunteering work in various events and programs of BRAC University, notable being working with the leading core team of 16th Convocation of BRAC University</li>
             </ul>
+        </div>
+
+        <hr />
+
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <p>If you have any questions, feel free to drop me a message :)</p>
+            
+            <form action="mailto:alifmajumder2002@gmail.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="name">Your Name:</label><br />
+                    <input type="text" id="name" name="Name" /><br />
+                </div>
+
+                <div>
+                    <label for="email">Your Email:</label><br />
+                    <input type="text" id="email" name="Email" /><br />
+                </div>
+
+                <div>
+                    <label for="message">Message:</label><br />
+                    <textarea id="message" name="Message" rows="5" cols="30"></textarea><br />
+                </div>
+
+                <div>
+                    <input type="submit" value="Send Email" class="submit-btn" />
+                </div>
+            </form>
         </div>
 
     </div>
